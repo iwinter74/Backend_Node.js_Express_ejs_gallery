@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    margin-top: 20%
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+nav {
+    background: black;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+nav a {
+    text-decoration: none;
+    color: white
+}
+li {
+    list-style: none;
+}
+img {
+    width: 500px;
+    height: 400px
+}
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3em;
+    object-fit: cover;
+    margin-left: 5em;
+}
+section a {
+    color: black
+}

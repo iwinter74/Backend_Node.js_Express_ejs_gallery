@@ -1,0 +1,15 @@
+<%-include('./partials/head')%>
+<body>
+    <%-include('./partials/navigation')%>
+
+<section>
+    <%gallery.forEach(elt => {%>
+        <div>
+        <img src="<%=elt.download_url%>" alt="">
+        <a href="/gallery/<%=elt.id%>">Click4More</a>
+        </div>
+    <%})%>
+</section>
+
+</body>
+</html>
